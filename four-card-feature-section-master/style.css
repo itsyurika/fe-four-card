@@ -1,0 +1,103 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    background-color:  hsl(0, 0%, 98%);
+    
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+/* Header */
+.header {
+    justify-content: center center;
+    max-width: 600px;
+    text-align: center;
+    margin: 100px auto;
+    
+}
+
+.top-title {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+
+/* Main Body */
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, min(400px));
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.col {
+    margin: 0 20px;
+} 
+
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 4px hsl(229, 6%, 66%);
+    width: 400px;
+}
+
+ .Team-Builder {
+     margin-bottom: 30px;
+ }
+
+/* Card Head */
+
+.card-head {
+    height: 0.5rem;
+    border-radius: 5px 5px 0 0;
+}
+
+.Supervisor .card-head {
+    background-color:  hsl(180, 62%, 55%);
+}
+
+.Team-Builder .card-head {
+    background-color:  hsl(0, 78%, 62%);
+}
+
+.Karma .card-head {
+    background-color:  hsl(34, 97%, 64%);
+}
+
+.Calculator .card-head {
+    background-color:  hsl(212, 86%, 64%);
+}
+
+/* Card Content */
+
+.card-content {
+    padding: 10px 50px;
+}
+
+/* Card Image */
+
+.card-image {
+    padding: 20px 30px;
+    text-align: right;
+}
+
+/* Footer */
+
+footer {
+    padding: 100px 0 50px;
+}
+
+@media screen and (max-width: 1300px ) {
+  
+    .main{ 
+    grid-template-columns: auto;
+    margin: 50px auto;
+   
+}
+}
